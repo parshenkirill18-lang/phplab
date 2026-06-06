@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^hello/([^/]+)/?$ hello.php?username=$1 [L]
